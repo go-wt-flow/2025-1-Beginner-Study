@@ -17,20 +17,20 @@ Git에는 다음 세 가지 영역이 있다.
 
 #### 3. Git의 기본 명령어
 * 파일 추가 및 관리
-    git init: git 저장소 초기화
-    git add . : 모든 파일 한 번에 등록
-    git add <파일명> : 특정 파일만 등록
-    git rm --cached <file> : unstage로 되돌리기
+    + git init: git 저장소 초기화
+    + git add . : 모든 파일 한 번에 등록
+    + git add <파일명> : 특정 파일만 등록
+    + git rm --cached <file> : unstage로 되돌리기
 * 커밋
-    git commit : 파일 수정 후 로컬 저장소에 등록
-    git commit -m "커밋 메세지"
-    + 커밋 메세지 작성 규칙
-        - feat: 새로운 기능 추가
-        - fix: 버그 수정
-        - refactor: 코드 개선
-        - chore: 코드 외 설정 수정
-        - docs: 문서화
-        - test: 테스트 코드 추가
+    + git commit : 파일 수정 후 로컬 저장소에 등록
+    + git commit -m "커밋 메세지"
+* 커밋 메세지 작성 규칙
+    + feat: 새로운 기능 추가
+    + fix: 버그 수정
+    + refactor: 코드 개선
+    + chore: 코드 외 설정 수정
+    + docs: 문서화
+    + test: 테스트 코드 추가
 
 #### 4. GitHub를 사용하는 이유
 GitHub는 Git 저장소를 원격으로 관리할 수 있도록 도와주는 서비스로, 협업을 위해 필수적이다. 또한, 이슈 트래킹, 코드 리뷰, 프로젝트 업무 관리 등의 기능들도 이용할 수 있다.
