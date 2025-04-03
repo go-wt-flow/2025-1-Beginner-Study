@@ -41,3 +41,5 @@
     - 머지 이후 브랜치 삭제 해주기
     - 원격 레포지토리에서 브랜치 삭제 후 git pull해서 업데이트해주기
 
+>> https://github.com/go-wt-flow/2025-1-Beginner-Study/pull/2
+
