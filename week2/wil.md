@@ -34,12 +34,20 @@
     + 주의! 커밋 해쉬가 변경되어 무수한 충돌을 경험하 ㄹ수 있음
     + 웬만하면 squash나 merge commit 사용하기
 
-#### 6. 실습
+#### 3. git 명령어
+- 현재 브랜치 확인하기: git branch
+- 모든 브랜치 확인하기: git branch -a
+- 브랜치 생성하기: git branch “<브랜치 이름>”
+- 브랜치 삭제하기: git branch -D “<브랜치 이름>”
+- 브랜치 이동하기: git checkout “<브랜치 이름>”
+- 브랜치 생성 후 이동하기: git checkout -b “<브랜치 이름>”
+
+#### 4. 실습
 1. Issue 만들기
 2. 새로운 브랜치를 만들어 작업하기 (README.md 작성)
 3. Pull Request를 만들어 기존 브랜치로 merge 하기
     - 머지 이후 브랜치 삭제 해주기
     - 원격 레포지토리에서 브랜치 삭제 후 git pull해서 업데이트해주기
 
->> https://github.com/go-wt-flow/2025-1-Beginner-Study/pull/2
+실습 링크: https://github.com/go-wt-flow/2025-1-Beginner-Study/pull/2
 
