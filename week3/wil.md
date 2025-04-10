@@ -1,6 +1,6 @@
 ## 개발 입문 스터디 3주차
 
-#### 1. commit 과련
+#### 1. commit 관련
 - git log
     + commit 기록을 최신순으로 확인
     + git commit --oneline: 각 커밋 한줄 요약
